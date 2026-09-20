@@ -47,6 +47,8 @@ a { color: inherit; text-decoration: none; }
 .eyebrow { color: #c4d3ff; display: flex; align-items: center; gap: 10px; margin: 0 0 28px; }
 .hero .eyebrow { font-size: clamp(.9rem, 1.8vw, 1.575rem); line-height: 1.45; width: max-content; max-width: calc(100vw - 48px); white-space: nowrap; }
 .eyebrow span { width: 28px; height: 1px; background: var(--cyan); }
+.lowercase-i { text-transform: lowercase; }
+.eyebrow span.lowercase-i { width: auto; height: auto; background: none; }
 h1, h2, h3 { font-family: var(--display); letter-spacing: -.035em; line-height: 1.1; margin-top: 0; }
 .hero h1 { font-size: clamp(3.2rem, 7vw, 6.6rem); max-width: 980px; margin-bottom: 30px; font-weight: 600; }
 .hero h1 em { color: var(--blue-bright); font-style: normal; }
