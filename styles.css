@@ -47,6 +47,7 @@ a { color: inherit; text-decoration: none; }
 .eyebrow { color: #c4d3ff; display: flex; align-items: center; gap: 10px; margin: 0 0 28px; }
 .hero .eyebrow { font-size: clamp(.9rem, 1.8vw, 1.575rem); line-height: 1.45; width: max-content; max-width: calc(100vw - 48px); white-space: nowrap; }
 .eyebrow-rule { flex: 0 0 28px; width: 28px; height: 1px; background: var(--cyan); }
+.tight-a { display: inline-block; margin-left: -.03em; }
 .lowercase-i { display: inline-block; margin-left: -.11em; text-transform: lowercase; }
 .mission-kicker .lowercase-i { margin-left: -.13em; }
 h1, h2, h3 { font-family: var(--display); letter-spacing: -.035em; line-height: 1.1; margin-top: 0; }
