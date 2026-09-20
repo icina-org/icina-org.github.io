@@ -67,7 +67,7 @@ h1, h2, h3 { font-family: var(--display); letter-spacing: -.035em; line-height: 
 .hero-principle strong { color: white; display: block; font-weight: 600; }
 
 .section-shell { max-width: var(--max); margin: 0 auto; padding-left: 24px; padding-right: 24px; }
-.purpose-section { display: grid; grid-template-columns: 170px minmax(0, 1fr) 330px; gap: 50px; padding-top: 115px; padding-bottom: 115px; }
+.purpose-section { display: grid; grid-template-columns: 170px minmax(0, 1fr) 333px; gap: 50px; padding-top: 115px; padding-bottom: 115px; }
 .purpose-copy h2, .approach-intro h2, .join-section h2 { font-size: clamp(2rem, 4vw, 3.6rem); margin-bottom: 28px; }
 .purpose-copy p, .approach-intro > p { color: var(--ink-soft); font-size: 1.08rem; max-width: 680px; }
 .purpose-note { border-top: 3px solid var(--violet); padding-top: 22px; align-self: center; }
